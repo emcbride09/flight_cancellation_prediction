@@ -39,11 +39,12 @@ __3-EDA-ml-flights.ipynb__
 __4- Feature engineering.ipynb__ (Basic level)
     - Encoding airlines - % of Heathrow flights - rank from 1-5. 124 unique carriers
     - turn time_of_day into 4 segments redeye, morning, afternoon, evening
-    - one hot cat variables   
+    - one hot cat variables  
+
 __4.1 Covid UK data.ipynb__  
 
 __4.2 WorldBank_airPassengersDepartures_API.ipynb__  
-    - World bank API to get which carriers are from which countries, to be included in airline_origin_covid cases/day  
+    - World bank API to get month by month totals of passenger departures globally  
 
 __4.3 Webscrape_IATA_codes.ipynb__
     - Scrape a table from Wikipedia to get IATA codes and airline country and other misc info
@@ -87,7 +88,7 @@ __4.3 Webscrape_IATA_codes.ipynb__
     2. Boeing/Airbus announcments - faults  
 ​
 ​
-8. World Bank - airline passengers API
+8. World Bank - airline passengers API *
     1. Passengers from PREVIOUS month increase/decrease % - will a recent decrease of passengers result in more cancellations?
 
 
