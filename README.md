@@ -37,18 +37,18 @@ __3-EDA-ml-flights.ipynb__
         by carrier
 4. 4- Feature Engineering:  
 
-__4- Feature engineering.ipynb__ (Basic level)
-    - Encoding airlines - % of Heathrow flights - rank from 1-5. 124 unique carriers
-    - turn time_of_day into 4 segments redeye, morning, afternoon, evening
-    - one hot cat variables  
+    - __4- Feature engineering.ipynb__ (Basic level)
+        - Encoding airlines - % of Heathrow flights - rank from 1-5. 124 unique carriers
+        - turn time_of_day into 4 segments redeye, morning, afternoon, evening
+        - one hot cat variables  
 
-__4.1 Covid UK data.ipynb__  
+    - __4.1 Covid UK data.ipynb__  
 
-__4.2 WorldBank_airPassengersDepartures_API.ipynb__  
-    - World bank API to get month by month totals of passenger departures globally  
+    - __4.2 WorldBank_airPassengersDepartures_API.ipynb__  
+    World bank API to get month by month totals of passenger departures globally  
 
-__4.3 Webscrape_IATA_codes.ipynb__
-    - Scrape a table from Wikipedia to get IATA codes and airline country and other misc info
+    - __4.3 Webscrape_IATA_codes.ipynb__
+    Scrape a table from Wikipedia to get IATA codes and airline country and other misc info
 
 ## Feature Ideas (* Denotes included - others to be done if time is sufficient)
 
