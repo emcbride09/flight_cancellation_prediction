@@ -36,6 +36,7 @@ __3-EDA-ml-flights.ipynb__
         by terminal
         by carrier
 4. 4- Feature Engineering:  
+
 __4- Feature engineering.ipynb__ (Basic level)
     - Encoding airlines - % of Heathrow flights - rank from 1-5. 124 unique carriers
     - turn time_of_day into 4 segments redeye, morning, afternoon, evening
