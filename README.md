@@ -3,8 +3,11 @@
 ### Goals
 Create a binary classification model to predict cancellations of commercial flights leaving Heathrow
 
-### Prior studies on the topic
+### Prior model builds on flights  
 https://srcole.github.io/assets/flight_delay/report.pdf - study which used classification for >15 mins late
+
+### Reasons why flights get cancelled  
+https://www.claimcompass.eu/blog/why-is-my-flight-cancelled/ 
 
 ### Format of this repository
 This repo has been divided into the separate stages undertaken when developing this project.
@@ -58,7 +61,7 @@ __3-EDA-ml-flights.ipynb__
     3. size of airlines profitability  
     
     
-2. Covid
+2. Covid *
     1. new cases in london by day
     2. new cases in the UK by day (maybe different decision making bases on one and not the other?)  
     3. If we can get carrier country - we can using 1.2 Webscrape_IATA_codes.ipynb then we can get daily covid cases at destination too.
