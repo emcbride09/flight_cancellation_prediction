@@ -11,7 +11,7 @@ This repo has been divided into the separate stages undertaken when developing t
 __Folders and scripts__
 0. - define environment
 
-1. 1- API_scrape_dataset_build:   
+1. 1- API_scrape_dataset_build:  
 __1.1- Base_dataset_with_outcome.ipynb__
     - Flight aware API - not included in final model
     - Aviation edge API - base of our dataset
@@ -50,7 +50,7 @@ __3-EDA-ml-flights.ipynb__
     - __4.3 Webscrape_IATA_codes.ipynb__
     Scrape a table from Wikipedia to get IATA codes and airline country and other misc info
 
-## Feature Ideas (* Denotes included - others to be done if time is sufficient)
+### Feature Ideas (* Denotes included - others to be done if time is sufficient)
 
 1. Airline recode *
     1. size of airlines # flights out of heathrow *  
@@ -58,9 +58,9 @@ __3-EDA-ml-flights.ipynb__
     3. size of airlines profitability  
     
     
-2. Covid
+2. Covid *
     1. new cases in london by day
-    2. new cases in the UK by day (maybe different decision making bases on one and not the other?)  
+    2. new cases in the UK by day * (maybe different decision making bases on one and not the other?)  
     3. If we can get carrier country - we can using 1.2 Webscrape_IATA_codes.ipynb then we can get daily covid cases at destination too.
 ​
 ​
@@ -94,5 +94,5 @@ __3-EDA-ml-flights.ipynb__
 
 
 ### Modelling:
-1. Depending on time/scope - we will examine whether the dataset can be used for logistic regression. 
-2. Assess other models for appropriateness
+1. Binary Classifier chosen was XGBoost (speed and accuracy)
+    1. A Random Serach Cross Validation was used to improve the model performance
