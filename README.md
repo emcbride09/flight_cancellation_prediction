@@ -14,10 +14,6 @@ https://www.claimcompass.eu/blog/why-is-my-flight-cancelled/
  - Please run each script in numerical order to reproduce results shown.  You will need API keys for the flight aware API
  - All datasets are saved to and loaded from the datasets folder. Each dataset's number pertains to which script __created__ that dataset
 ---
-### Format of this repository  
-
-This repo has been divided into the separate stages undertaken when developing this project.  
-
 __Folders and scripts__  
 
 0. - define environment  
