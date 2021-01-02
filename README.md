@@ -11,6 +11,7 @@ https://www.claimcompass.eu/blog/why-is-my-flight-cancelled/
 
 ### Format of this repository  
 This repo has been divided into the separate stages undertaken when developing this project.  
+
 __Folders and scripts__
 0. - define environment
 
