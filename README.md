@@ -1,8 +1,9 @@
-# A machine learning model to predict flight cancellations.
+# A binary classification model to predict commercial flight cancellations.
 
 ### Goals
 Create a binary classification model to predict cancellations of commercial flights leaving Heathrow
 
+<<<<<<< HEAD
 ### Prior model builds on flights  
 https://srcole.github.io/assets/flight_delay/report.pdf - study which used classification for >15 mins late
 
@@ -13,8 +14,22 @@ https://www.claimcompass.eu/blog/why-is-my-flight-cancelled/
 This repo has been divided into the separate stages undertaken when developing this project.
 __Folders and scripts__
 0. - define environment
+=======
+### Prior modelling on the topic
+https://srcole.github.io/assets/flight_delay/report.pdf - study which used classification for >15 mins late  
 
-1. 1- API_scrape_dataset_build:   
+### Subject matter expertise  
+https://www.claimcompass.eu/blog/why-is-my-flight-cancelled/ 
+>>>>>>> a126e5eeb25fae963367933266a9d44b7b02d072
+
+### Format of this repository  
+This repo has been divided into the separate stages undertaken when developing this project.  
+
+__Folders and scripts__  
+
+0. - define environment  
+
+1. 1- API_scrape_dataset_build:  
 __1.1- Base_dataset_with_outcome.ipynb__
     - Flight aware API - not included in final model
     - Aviation edge API - base of our dataset
@@ -53,7 +68,7 @@ __3-EDA-ml-flights.ipynb__
     - __4.3 Webscrape_IATA_codes.ipynb__
     Scrape a table from Wikipedia to get IATA codes and airline country and other misc info
 
-## Feature Ideas (* Denotes included - others to be done if time is sufficient)
+### Feature Ideas (* Denotes included - others to be done if time is sufficient)
 
 1. Airline recode *
     1. size of airlines # flights out of heathrow *  
@@ -63,7 +78,7 @@ __3-EDA-ml-flights.ipynb__
     
 2. Covid *
     1. new cases in london by day
-    2. new cases in the UK by day (maybe different decision making bases on one and not the other?)  
+    2. new cases in the UK by day * (maybe different decision making bases on one and not the other?)  
     3. If we can get carrier country - we can using 1.2 Webscrape_IATA_codes.ipynb then we can get daily covid cases at destination too.
 ​
 ​
@@ -97,5 +112,5 @@ __3-EDA-ml-flights.ipynb__
 
 
 ### Modelling:
-1. Depending on time/scope - we will examine whether the dataset can be used for logistic regression. 
-2. Assess other models for appropriateness
+1. Binary Classifier chosen was XGBoost (speed and accuracy)
+    1. A Random Serach Cross Validation was used to improve the model performance
