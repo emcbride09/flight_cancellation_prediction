@@ -58,8 +58,8 @@ __3-EDA-ml-flights.ipynb__
     Scrape a table from Wikipedia to get IATA codes and airline country and other misc info
 
 5. Modelling:  
-  1. Binary Classifier chosen was XGBoost (speed and accuracy)
-    1. A Random Serach Cross Validation was used to improve the model performance
+    -  Binary Classifier chosen was XGBoost (speed and accuracy)
+         A Random Serach Cross Validation was used to improve the model performance
 
 
 ### Feature Ideas (* Denotes included - others to be done if time is sufficient)
