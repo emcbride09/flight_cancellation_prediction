@@ -57,6 +57,11 @@ __3-EDA-ml-flights.ipynb__
     - __4.3 Webscrape_IATA_codes.ipynb__
     Scrape a table from Wikipedia to get IATA codes and airline country and other misc info
 
+5. Modelling:  
+  1. Binary Classifier chosen was XGBoost (speed and accuracy)
+    1. A Random Serach Cross Validation was used to improve the model performance
+
+
 ### Feature Ideas (* Denotes included - others to be done if time is sufficient)
 
 1. Airline recode *
@@ -100,6 +105,3 @@ __3-EDA-ml-flights.ipynb__
     1. Passengers from PREVIOUS month increase/decrease % - will a recent decrease of passengers result in more cancellations?
 
 
-### Modelling:
-1. Binary Classifier chosen was XGBoost (speed and accuracy)
-    1. A Random Serach Cross Validation was used to improve the model performance
