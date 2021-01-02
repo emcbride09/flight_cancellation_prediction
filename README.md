@@ -1,28 +1,21 @@
 # A binary classification model to predict commercial flight cancellations.
-
+---
 ### Goals
 Create a binary classification model to predict cancellations of commercial flights leaving Heathrow
 
-<<<<<<< HEAD
 ### Prior model builds on flights  
 https://srcole.github.io/assets/flight_delay/report.pdf - study which used classification for >15 mins late
 
 ### Reasons why flights get cancelled  
 https://www.claimcompass.eu/blog/why-is-my-flight-cancelled/ 
 
-### Format of this repository
-This repo has been divided into the separate stages undertaken when developing this project.
-__Folders and scripts__
-0. - define environment
-=======
-### Prior modelling on the topic
-https://srcole.github.io/assets/flight_delay/report.pdf - study which used classification for >15 mins late  
-
-### Subject matter expertise  
-https://www.claimcompass.eu/blog/why-is-my-flight-cancelled/ 
->>>>>>> a126e5eeb25fae963367933266a9d44b7b02d072
-
 ### Format of this repository  
+ - This repo has been divided into the separate stages undertaken when developing this project.
+ - Please run each script in numerical order to reproduce results shown.  You will need API keys for the flight aware API
+ - All datasets are saved to and loaded from the datasets folder. Each dataset's number pertains to which script __created__ that dataset
+---
+### Format of this repository  
+
 This repo has been divided into the separate stages undertaken when developing this project.  
 
 __Folders and scripts__  
