@@ -13,7 +13,8 @@ https://www.claimcompass.eu/blog/why-is-my-flight-cancelled/
 This repo has been divided into the separate stages undertaken when developing this project.  
 
 __Folders and scripts__  
-0. - define environment
+
+0. - define environment  
 
 1. 1- API_scrape_dataset_build:  
 __1.1- Base_dataset_with_outcome.ipynb__
