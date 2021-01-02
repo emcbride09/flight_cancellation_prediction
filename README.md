@@ -1,4 +1,4 @@
-# A machine learning model to predict flight cancellations.
+# A binary classification model to predict commercial flight cancellations.
 
 ### Goals
 Create a binary classification model to predict cancellations of commercial flights leaving Heathrow
