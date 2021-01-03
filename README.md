@@ -35,9 +35,9 @@ __2- preprocessing.ipynb__
 __3-EDA-ml-flights.ipynb__
     - 1. Date range
     - Missingness
-    - Filters to add to data before modelling
-        non-commercial carriers
-        'empty' carrier
+    - Filters to add to data before modelling  
+        non-commercial carriers  
+        'empty' carrier  
     - Distribution of outcome variable  
         alone  
         by terminal  
