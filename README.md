@@ -38,7 +38,7 @@ __3-EDA-ml-flights.ipynb__
     - Filters to add to data before modelling
         non-commercial carriers
         'empty' carrier
-    - Distribution of outcome variable
+    - Distribution of outcome variable  
         alone  
         by terminal  
         by carrier  
