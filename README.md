@@ -39,9 +39,9 @@ __3-EDA-ml-flights.ipynb__
         non-commercial carriers
         'empty' carrier
     - Distribution of outcome variable
-        alone
-        by terminal
-        by carrier
+        alone  
+        by terminal  
+        by carrier  
 4. 4- Feature Engineering:  
 
     - __4- Feature engineering.ipynb__ (Basic level)
